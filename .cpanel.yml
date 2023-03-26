@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rajahema/inidoc.tech/
+    - /bin/cp index.html $DEPLOYPATH
+   	- /bin/cp -R img $DEPLOYPATH
+   	- /bin/cp -R css $DEPLOYPATH
