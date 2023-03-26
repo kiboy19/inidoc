@@ -58,6 +58,11 @@ body {
   padding: 10px;
 }
 
+.services p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
 .circle {
   width: 80px;
   border-radius: 55px;
@@ -226,6 +231,56 @@ ul {
 
   .card {
     width: 80%;
+  }
+}
+
+/* Responsive 355px */
+@media only screen and (max-width: 355px) {
+  .jumbo {
+    height: 48vh;
+  }
+  .about {
+    padding: 20px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 15px;
+  }
+
+  .imgjum {
+    transform: translateY(-45px);
+  }
+
+  .plus h2 {
+    font-size: 23px;
+  }
+
+  .plus p {
+    font-size: 13px;
+  }
+
+  .layanan {
+    flex-direction: column;
+  }
+
+  .services {
+    padding: 10px;
+  }
+
+  .services p {
+    font-size: 20px;
+    margin-top: -50px;
+    padding-left: 80px;
+    text-align: center;
+  }
+
+  .card {
+    margin: auto;
+    margin-top: 20px;
   }
 }
 
