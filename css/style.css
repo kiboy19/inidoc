@@ -45,6 +45,11 @@ body {
   padding: 65px;
 }
 
+.putih {
+  color: white;
+  text-decoration: none;
+}
+
 .plus {
   padding: 65px;
   color: white;
@@ -167,6 +172,53 @@ ul {
   background-color: #ffffff;
 }
 
+/* LOGIN PAGES  AND REGISTER*/
+.login {
+  height: 70vh;
+}
+
+.register {
+  height: 110vh;
+}
+
+.sambutan {
+  transform: translateY(30px);
+}
+.kartu {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  width: 30%;
+  border-radius: 30px;
+  transform: translateY(50px);
+  transition-delay: 2s;
+}
+
+.kartu:hover {
+  margin-top: -8px;
+}
+
+.kuesioner {
+  padding: 30px;
+}
+
+.imglogin {
+  width: 120px;
+}
+
+.kuesioner label {
+  color: white;
+}
+
+.kuesioner input {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.kuesioner button {
+  transform: translateY(20px);
+}
+
 /* Responsive */
 
 /* Responsive 991 */
@@ -179,7 +231,7 @@ ul {
 /* Responsive 720 */
 @media only screen and (max-width: 720px) {
   .jumbo {
-    height: 40vh;
+    height: 60vh;
   }
   .imgjum {
     transform: translateY(-80px);
@@ -187,7 +239,7 @@ ul {
 
   .artikel {
     padding: 15px;
-    height: 40vh;
+    height: 70vh;
   }
 
   .main {
@@ -250,6 +302,23 @@ ul {
   .card {
     width: 80%;
     margin-top: 20px;
+  }
+
+  /* Masuk ke tahap Login dan Register */
+
+  .login {
+    height: 80vh;
+  }
+
+  .register {
+    height: 140vh;
+  }
+  .sambutan {
+    padding: 15px;
+  }
+
+  .kartu {
+    width: 80%;
   }
 }
 
