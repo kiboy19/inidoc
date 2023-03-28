@@ -91,6 +91,7 @@ body {
   width: 30%;
   margin: auto;
   box-shadow: black 2px 8px 12px;
+  box-sizing: border-box;
 }
 
 .content {
@@ -178,7 +179,7 @@ ul {
 }
 
 .register {
-  height: 110vh;
+  height: 120vh;
 }
 
 .sambutan {
@@ -192,6 +193,7 @@ ul {
   border-radius: 30px;
   transform: translateY(50px);
   transition-delay: 2s;
+  box-sizing: border-box;
 }
 
 .kartu:hover {
@@ -199,7 +201,9 @@ ul {
 }
 
 .kuesioner {
+  position: relative;
   padding: 30px;
+  width: auto;
 }
 
 .imglogin {
@@ -217,6 +221,33 @@ ul {
 
 .kuesioner button {
   transform: translateY(20px);
+}
+
+/* Pricing css */
+
+.harga {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.lcard {
+  width: 30%;
+  height: 70vh;
+  margin: auto;
+  border-radius: 20px;
+  color: white;
+  box-shadow: black 6px 10px 10px;
+  box-sizing: border-box;
+}
+
+.lcard h2 {
+  font-size: 25px;
+}
+
+.lcard p {
+  font-size: 12px;
+  color: rgb(226, 230, 230);
 }
 
 /* Responsive */
@@ -369,6 +400,14 @@ ul {
   .card {
     margin: auto;
     margin-top: 20px;
+  }
+
+  .kartu {
+    width: 90%;
+  }
+
+  .kuesioner input {
+    margin: auto;
   }
 }
 
