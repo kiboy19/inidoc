@@ -351,6 +351,23 @@ ul {
   .kartu {
     width: 80%;
   }
+
+  /* CSS Berlangganan */
+  .harga {
+    flex-direction: column;
+  }
+
+  .lcard {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    height: 70vh;
+  }
+
+  .lcard ul {
+    padding: 5px;
+    font-size: 15px;
+  }
 }
 
 /* Responsive 377px */
@@ -408,6 +425,11 @@ ul {
 
   .kuesioner input {
     margin: auto;
+  }
+
+  .lcard {
+    width: 90%;
+    height: 80vh;
   }
 }
 
